@@ -1,0 +1,6 @@
+name: hello-world
+
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/release-dev

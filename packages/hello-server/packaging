@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source /var/vcap/packages/golang-1.11-linux/bosh/compile.env
+
+go build hello.go
+
+cp hello ${BOSH_INSTALL_TARGET}/hello

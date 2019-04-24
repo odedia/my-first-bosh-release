@@ -1,0 +1,21 @@
+name: hello-world
+version: 0+dev.2
+commit_hash: non-git
+uncommitted_changes: false
+jobs:
+- name: yo
+  version: bedf759e10b812496e5cd0ecdee1b9abf62440a0
+  fingerprint: bedf759e10b812496e5cd0ecdee1b9abf62440a0
+  sha1: 8c430f577b0d7d4663c9be593a6f99f9bdd298a2
+packages:
+- name: golang-1.11-linux
+  version: 7b05815bda4bbaa80dcd0f8c625e48e3531d9396ead0468f13918aaadf0f7474
+  fingerprint: 7b05815bda4bbaa80dcd0f8c625e48e3531d9396ead0468f13918aaadf0f7474
+  sha1: sha256:9c7d8529c7a711724c51064df471c762201d2e3218447ce3e64f5fb0d6f8d319
+  dependencies: []
+- name: hello-server
+  version: 113c913d6f6ac3b5fc1e057d2e860e6f6cdf0fa0
+  fingerprint: 113c913d6f6ac3b5fc1e057d2e860e6f6cdf0fa0
+  sha1: 15d12de8977e8c64bc88d7c43be0fab050e3ef5e
+  dependencies:
+  - golang-1.11-linux

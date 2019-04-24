@@ -1,0 +1,10 @@
+---
+name: yo
+
+templates:
+  ctl.sh: /bin/ctl/sh
+
+packages:
+- hello-server
+
+properties: {}
